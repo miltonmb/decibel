@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button clear icon-only (click)="goBackToProfile()">
+        <ion-icon name='arrow-back'></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons right>
+      <button ion-button clear icon-only (click)="createProfile()">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+<ion-content>
+
+  <ion-avatar (click)="openImagePicker()">
+    <img src="http://s3.amazonaws.com/nvest/Blank_Club_Website_Avatar_Gray.jpg" class="profilePicture">
+  </ion-avatar>
+
+  <div class="inputProfile">
+    <ion-label>Nombre de usuario</ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="profile.username" placeholder="Nombre de usuario"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="inputProfile">
+    <ion-label>Nombre</ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="profile.firstName" placeholder="Nombre"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="inputProfile">
+    <ion-label>Apellido</ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="profile.LastName" placeholder="Apellido"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="inputProfile">
+    <ion-label>Profesión</ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="profile.profession" placeholder="Profesión"></ion-input>
+    </ion-item>
+  </div>
+
+
+  <div class="inputProfile">
+    <ion-label>Sitio web</ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="profile.website" placeholder="Sitio web"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="inputProfile">
+    <ion-label>Biografía</ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="profile.bio" placeholder="Biografía"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="inputProfile">
+    <ion-label>Teléfono</ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="profile.phone" placeholder="Teléfono"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="inputProfile">
+    <ion-label>Sexo</ion-label>
+    <ion-item>
+      <ion-select [(ngModel)]="profile.gender" placeholder="Sexo">
+        <ion-option value="f">Mujer</ion-option>
+        <ion-option value="m">Hombre</ion-option>
+      </ion-select>
+    </ion-item>
+  </div>
+</ion-content>

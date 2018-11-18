@@ -12,6 +12,11 @@ import {AngularFireModule} from 'angularfire2'
 import {AngularFireAuthModule} from 'angularfire2/auth'
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import {LoginPageModule} from './../pages/login/login.module'
+import {ProfilePageModule} from './../pages/profile/profile.module'
+
+import { ImagePicker } from '@ionic-native/image-picker';
+import { Crop } from '@ionic-native/crop';
+import { Camera } from '@ionic-native/camera';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -30,7 +35,7 @@ export const CREDENTIALS = {
     MyApp,
     //LoginPage,
     HomePage,
-    ProfilePage,
+    //ProfilePage,
     SearchPage,
     InboxPage
   ],
@@ -40,7 +45,8 @@ export const CREDENTIALS = {
     AngularFireModule.initializeApp(CREDENTIALS),
     AngularFireAuthModule,
     AngularFireDatabaseModule,
-    LoginPageModule
+    LoginPageModule,
+    ProfilePageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -52,6 +58,9 @@ export const CREDENTIALS = {
     InboxPage
   ],
   providers: [
+    ImagePicker,
+		Crop,
+		Camera,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},

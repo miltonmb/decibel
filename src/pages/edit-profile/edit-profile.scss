@@ -1,0 +1,17 @@
+page-edit-profile {
+    ion-content{
+        text-align: center
+    }
+    ion-avatar > img{
+        width: 150px;
+        margin: auto;
+        border-radius: 50%
+
+    }
+
+    .inputProfile{
+        text-align: left;
+        margin: 20px;
+    }
+
+}

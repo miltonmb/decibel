@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {AngularFireDatabase} from 'angularfire2/database'
+import {Profile} from '../../models/profile'
+import { AngularFireAuth } from 'angularfire2/auth';
 
 /**
  * Generated class for the ProfilePage page.
@@ -14,12 +17,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'profile.html',
 })
 export class ProfilePage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  profile = {} as Profile;
+  constructor(public navCtrl: NavController, public navParams: NavParams, public fAuth: AngularFireAuth, public afDatabase: AngularFireDatabase) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProfilePage');
+  }
+  editProfile(){
+    this.navCtrl.setRoot('EditProfilePage')
   }
 
 }
