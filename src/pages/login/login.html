@@ -1,0 +1,15 @@
+<ion-header>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/imgs/logo.png" alt="logo">
+
+  <ion-input type="text" [(ngModel)]="user.email" placeholder="Correo electrónico"></ion-input>
+  <ion-input type="password" [(ngModel)]="user.password" placeholder="Contraseña"></ion-input>
+
+  <button ion-button (click)="login()" round  class="signIn">Iniciar sesión</button>
+  <p class="bottom">¿No tienes una cuenta?
+    <a tappable color="primary" (click)="changeToRegister()"> Crea una</a>
+  </p>
+
+</ion-content>

@@ -1,0 +1,12 @@
+<ion-header>
+</ion-header>
+
+<ion-content padding>
+  <img src="assets/imgs/logo.png" alt="logo">
+      <ion-input type="text" [(ngModel)]="user.email" placeholder="Correo electrónico"></ion-input>
+
+      <ion-input type="password" [(ngModel)]="user.password" placeholder="Contraseña"></ion-input>
+
+      <button ion-button (click)="register()" round class="register">Registrar</button>
+
+</ion-content>
