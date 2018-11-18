@@ -1,3 +1,6 @@
+import { SearchPage } from './../pages/search/search';
+import { InboxPage } from './../pages/inbox/inbox';
+import { ProfilePage } from './../pages/profile/profile';
 import { RegisterPage } from './../pages/register/register';
 import { LoginPage } from './../pages/login/login';
 import { BrowserModule } from '@angular/platform-browser';
@@ -27,6 +30,9 @@ export const CREDENTIALS = {
     MyApp,
     //LoginPage,
     HomePage,
+    ProfilePage,
+    SearchPage,
+    InboxPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +46,10 @@ export const CREDENTIALS = {
   entryComponents: [
     MyApp,
     LoginPage,
-    HomePage
+    HomePage,
+    ProfilePage,
+    SearchPage,
+    InboxPage
   ],
   providers: [
     StatusBar,
