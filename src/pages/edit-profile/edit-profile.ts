@@ -39,7 +39,7 @@ export class EditProfilePage {
 
   goBackToProfile() {
     let alert = this.alertCtrl.create({
-      title: 'Cambios sing guardar',
+      title: 'Cambios sin guardar',
       message: 'Tienes cambios sin guardar.¿Seguro(a) que quieres cancelar?',
       buttons: [
         {

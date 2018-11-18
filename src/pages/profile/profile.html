@@ -1,5 +1,21 @@
 <ion-header>
+  <ion-navbar>
+    <p id="usernameProfile">mj_mrtnz</p>
+  </ion-navbar>
 </ion-header>
 <ion-content>
-  <button (click)="editProfile()"></button>
+  <ion-avatar no-padding>
+    <img src="http://s3.amazonaws.com/nvest/Blank_Club_Website_Avatar_Gray.jpg" class="profilePicture">
+    <ion-fab end>
+      <button ion-fab color="primary" (click)="editProfile()" id="rateButton">
+        <ion-icon name="construct"></ion-icon>
+      </button>
+    </ion-fab>
+  </ion-avatar>
+  <div id="infoProfile">
+    <p id="profileName">Milton Joel Martinez</p>
+    <p>Hola me gusta comer mucho espaguettis, y tambien tengo ganas de un perro</p>
+    <p><b>Disponibilidad:</b> Todo el tiempo</p>
+    <p><b>Servicio:</b> Cantante</p>
+  </div>
 </ion-content>

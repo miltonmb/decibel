@@ -1,3 +1,48 @@
 page-profile {
+    ion-content{
+        text-align: left;
+        padding: 0;
+    }
+    ion-avatar{
+        margin-top: -15px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    ion-avatar > img{
+        width: 100%;
+    }
+
+    #profileName{
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    #usernameProfile{
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .scroll-content {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+        display: block;
+        overflow-x: unset;
+        overflow-y: unset;
+        -webkit-overflow-scrolling: touch;
+        will-change: scroll-position;
+        contain: size style layout;
+        padding: 0;
+    }
+
+    #rateButton{
+        top: -30px;
+    }
+    #infoProfile{
+        margin-top: -10px;
+    }
 
 }
