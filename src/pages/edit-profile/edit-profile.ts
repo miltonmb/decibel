@@ -4,7 +4,6 @@ import { AngularFireDatabase } from 'angularfire2/database'
 import { Profile } from '../../models/profile'
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AlertController } from 'ionic-angular';
-import { ImagePicker } from '@ionic-native/image-picker'
 
 /**
  * Generated class for the EditProfilePage page.
@@ -21,7 +20,7 @@ import { ImagePicker } from '@ionic-native/image-picker'
 export class EditProfilePage {
 
   profile = {} as Profile;
-  constructor(private imagePicker: ImagePicker, private alertCtrl: AlertController, public navCtrl: NavController, public navParams: NavParams, public fAuth: AngularFireAuth, public afDatabase: AngularFireDatabase) {
+  constructor(private alertCtrl: AlertController, public navCtrl: NavController, public navParams: NavParams, public fAuth: AngularFireAuth, public afDatabase: AngularFireDatabase) {
   }
 
   ionViewDidLoad() {
@@ -59,15 +58,5 @@ export class EditProfilePage {
     });
     alert.present();
   }
-
-  openImagePicker() {
-    let options = {
-      maximumImagesCount: 1,
-    }
-    this.imagePicker.getPictures(options)
-      .then((results) => {
-
-      })
-  }
-
+  
 }

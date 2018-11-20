@@ -14,9 +14,6 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import {LoginPageModule} from './../pages/login/login.module'
 import {ProfilePageModule} from './../pages/profile/profile.module'
 
-import { ImagePicker } from '@ionic-native/image-picker';
-import { Crop } from '@ionic-native/crop';
-import { Camera } from '@ionic-native/camera';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -58,9 +55,6 @@ export const CREDENTIALS = {
     InboxPage
   ],
   providers: [
-    ImagePicker,
-		Crop,
-		Camera,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
