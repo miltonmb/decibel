@@ -1,4 +1,4 @@
-import { SearchPage } from './../pages/search/search';
+import { Search } from './../pages/search/search';
 import { InboxPage } from './../pages/inbox/inbox';
 import { ProfilePage } from './../pages/profile/profile';
 import { RegisterPage } from './../pages/register/register';
@@ -13,6 +13,7 @@ import {AngularFireAuthModule} from 'angularfire2/auth'
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import {LoginPageModule} from './../pages/login/login.module'
 import {ProfilePageModule} from './../pages/profile/profile.module'
+import { ModalPost } from '../pages/modal-post/modal-post';
 
 
 import { MyApp } from './app.component';
@@ -33,7 +34,8 @@ export const CREDENTIALS = {
     //LoginPage,
     HomePage,
     //ProfilePage,
-    SearchPage,
+    Search,
+    ModalPost,
     InboxPage
   ],
   imports: [
@@ -51,7 +53,8 @@ export const CREDENTIALS = {
     LoginPage,
     HomePage,
     ProfilePage,
-    SearchPage,
+    Search,
+    ModalPost,
     InboxPage
   ],
   providers: [

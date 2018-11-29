@@ -1,5 +1,5 @@
 import { ProfilePage } from './../profile/profile';
-import { SearchPage } from './../search/search';
+import { Search } from './../search/search';
 import { InboxPage } from './../inbox/inbox';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
@@ -11,7 +11,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 })
 export class HomePage {
   tab1Root = ProfilePage;
-  tab2Root = SearchPage;
+  tab2Root = Search;
   tab3Root = InboxPage;
   constructor(public navCtrl: NavController, public fAuth: AngularFireAuth) {
     this.fAuth.authState.subscribe((user: firebase.User) => {

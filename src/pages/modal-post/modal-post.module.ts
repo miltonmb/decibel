@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { Search } from './search';
+import { ModalPost } from './modal-post';
 
 @NgModule({
   declarations: [
-    Search,
+    ModalPost,
   ],
   imports: [
-    IonicPageModule.forChild(Search),
+    IonicPageModule.forChild(ModalPost),
   ],
   exports: [
-    Search
+    ModalPost
   ]
 })
-export class SearchModule {}
+export class ModalPostModule {}
