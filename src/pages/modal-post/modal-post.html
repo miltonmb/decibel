@@ -3,7 +3,7 @@
 
     <ion-row>
       <ion-col col-2>
-        <img [src]="modal_data.profile_img" class="avatar-modal" alt=""> 
+        <img [src]="modal_data.profile_img" class="avatar-modal" alt="">
       </ion-col>
 
       <ion-col col-8>
@@ -11,7 +11,9 @@
       </ion-col>
 
       <!-- If you wish, you can add close icon too. Just delete comment code -->
-      <ion-col col-2><span style="float: right" (click)="dismiss()"><ion-icon name="ios-close-circle-outline"></ion-icon></span></ion-col>
+      <ion-col col-2><span style="float: right" (click)="dismiss()">
+          <ion-icon name="ios-close-circle-outline"></ion-icon>
+        </span></ion-col>
 
     </ion-row>
 
