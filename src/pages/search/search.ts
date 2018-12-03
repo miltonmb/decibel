@@ -12,39 +12,39 @@ export class Search {
   public search_data = [
     {
       id: 1,
-      username: 'candelibas',
-      profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
-      post_img: 'https://scontent-mia3-1.cdninstagram.com/vp/a6bb6cdf536577d835630966c4547fa2/5CAF82DB/t51.2885-15/sh0.08/e35/s640x640/43415063_306559930169239_5804686911112393392_n.jpg'
+      username: 'Gina Benitez',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg '
     },
     {
       id: 2,
-      username: 'candelibas',
-      profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
-      post_img: 'https://scontent-mia3-1.cdninstagram.com/vp/a6bb6cdf536577d835630966c4547fa2/5CAF82DB/t51.2885-15/sh0.08/e35/s640x640/43415063_306559930169239_5804686911112393392_n.jpg'
+      username: 'Javier Diaz',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com'
     },
     {
       id: 3,
-      username: 'candelibas',
-      profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
-      post_img: 'https://scontent-mia3-1.cdninstagram.com/vp/a6bb6cdf536577d835630966c4547fa2/5CAF82DB/t51.2885-15/sh0.08/e35/s640x640/43415063_306559930169239_5804686911112393392_n.jpg'
+      username: 'Cesia Alvarez',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/c71361910151e26588a1e557ff09ca64/5C97E748/t51.2885-15/e35/45567685_196682007905295_3114362441507234935_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/c71361910151e26588a1e557ff09ca64/5C97E748/t51.2885-15/e35/45567685_196682007905295_3114362441507234935_n.jpg'
     },
     {
       id: 4,
-      username: 'candelibas',
-      profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
-      post_img: 'https://scontent-mia3-1.cdninstagram.com/vp/a6bb6cdf536577d835630966c4547fa2/5CAF82DB/t51.2885-15/sh0.08/e35/s640x640/43415063_306559930169239_5804686911112393392_n.jpg'
+      username: 'Miriam Lara',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg'
     },
     {
       id: 5,
-      username: 'candelibas',
-      profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
-      post_img: 'https://scontent-mia3-1.cdninstagram.com/vp/a6bb6cdf536577d835630966c4547fa2/5CAF82DB/t51.2885-15/sh0.08/e35/s640x640/43415063_306559930169239_5804686911112393392_n.jpg '
+      username: 'Laura',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/311f06df78ef48c80b04e46767f19249/5C9D825B/t51.2885-15/e35/46296938_511845765994137_1960551978169339483_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/311f06df78ef48c80b04e46767f19249/5C9D825B/t51.2885-15/e35/46296938_511845765994137_1960551978169339483_n.jpg'
     },
     {
       id: 6,
-      username: 'candelibas',
-      profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
-      post_img: 'https://scontent-mia3-1.cdninstagram.com/vp/a6bb6cdf536577d835630966c4547fa2/5CAF82DB/t51.2885-15/sh0.08/e35/s640x640/43415063_306559930169239_5804686911112393392_n.jpg'
+      username: 'Sarahi',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/38aa6bd1185baa0d28630241523d9385/5C8BA660/t51.2885-15/e35/44907927_172984123659191_2839845616789856029_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/38aa6bd1185baa0d28630241523d9385/5C8BA660/t51.2885-15/e35/44907927_172984123659191_2839845616789856029_n.jpg'
     }
   ];
 

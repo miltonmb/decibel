@@ -15,35 +15,35 @@ export class InboxPage {
       id: 1,
       profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
       sender: 'candelibas',
-      last_message: 'How you doin?',
+      last_message: 'Que tal?',
       time: '6h'
     },
     {
       id: 2,
-      profile_img: 'https://pbs.twimg.com/profile_images/726955832785571840/8OxhcDxl_400x400.jpg',
+      profile_img: 'https://avatars2.githubusercontent.com/u/17211796?s=460&v=4',
       sender: 'maxlynch',
-      last_message: 'LOL. Ionic in 2017',
+      last_message: 'Mañana estaria bien',
       time: '11h'
     },
     {
       id: 3,
       profile_img: 'http://ionicframework.com/dist/preview-app/www/assets/img/sarah-avatar.png.jpeg',
       sender: 'ashleyosama',
-      last_message: 'Wanna hang out?',
+      last_message: 'Para cuando tienes libre?',
       time: '1d'
     },
     {
       id: 4,
-      profile_img: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa_400x400.jpeg',
+      profile_img: 'https://avatars0.githubusercontent.com/u/383994?s=460&v=4g',
       sender: 'adam_bradley',
-      last_message: 'Typescript <3 me',
+      last_message: 'No puedo, tengo un concierto mañana',
       time: '3d'
     },
     {
       id: 5,
       profile_img: 'https://avatars1.githubusercontent.com/u/1024025?v=3&s=120',
       sender: 'linus_torvalds',
-      last_message: 'I am installing Ubuntu right now.',
+      last_message: 'Estoy disponible de 7am a 10pm',
       time: '6d'
     }
     

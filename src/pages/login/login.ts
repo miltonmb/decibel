@@ -19,9 +19,10 @@ export class LoginPage {
   public user: User = new User();
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public fAuth: AngularFireAuth) {
+    
   }
 
-  changeToRegister(){
+  changeToRegister() {
     this.navCtrl.setRoot('RegisterPage')
   }
 
