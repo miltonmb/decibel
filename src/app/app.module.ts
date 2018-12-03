@@ -14,8 +14,8 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import {LoginPageModule} from './../pages/login/login.module'
 import {ProfilePageModule} from './../pages/profile/profile.module'
 import { ModalPost } from '../pages/modal-post/modal-post';
-import { MessageDetailPage } from '../pages/message-detail/message-detail';
-import { NewMessagePage } from '../pages/new-message/new-message';
+import { MessageDetail } from '../pages/message-detail/message-detail';
+import { NewMessage } from '../pages/new-message/new-message';
 
 
 import { MyApp } from './app.component';
@@ -32,8 +32,8 @@ export const CREDENTIALS = {
 
 @NgModule({
   declarations: [
-    MessageDetailPage,
-    NewMessagePage,
+    MessageDetail,
+    NewMessage,
     MyApp,
     //LoginPage,
     HomePage,
@@ -60,8 +60,8 @@ export const CREDENTIALS = {
     Search,
     ModalPost,
     InboxPage,
-    MessageDetailPage,
-    NewMessagePage,
+    MessageDetail,
+    NewMessage,
   ],
   providers: [
     StatusBar,

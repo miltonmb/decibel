@@ -1,25 +1,33 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the MessageDetailPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-message-detail',
   templateUrl: 'message-detail.html',
 })
-export class MessageDetailPage {
+export class MessageDetail {
+
+  public sender:string;
+  public profile_img:string;
+  public last_message:string;
+  public send_like_icon:boolean = false;
+  public likeBtnVisible:boolean = false;
+
+  public messages = []; // You can get all the chat details from your API
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.sender = this.navParams.get('sender');
+    this.profile_img = this.navParams.get('profile_img');
+    this.last_message = this.navParams.get('last_message');
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MessageDetailPage');
+  sendLike() {
+    if(this.send_like_icon === false) {
+      this.send_like_icon = true;
+    }
+      // Allow heart effect
+      this.likeBtnVisible = !this.likeBtnVisible;
   }
 
 }

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { App, NavController, NavParams } from 'ionic-angular';
-import { MessageDetailPage } from '../message-detail/message-detail';
-import { NewMessagePage } from '../new-message/new-message';
+import { MessageDetail } from '../message-detail/message-detail';
+import { NewMessage } from '../new-message/new-message';
 
 @Component({
-  selector: 'page-inbox',
+  selector: 'page-messages',
   templateUrl: 'inbox.html',
 })
 export class InboxPage {
@@ -53,11 +53,11 @@ export class InboxPage {
   }
 
   goNewMessage() {
-    this.app.getRootNav().push(NewMessagePage);
+    this.app.getRootNav().push(NewMessage);
   }
 
   goMessageDetail(sender:string, profile_img:string, last_message:string) {
-    this.app.getRootNav().push(MessageDetailPage, { sender: sender, profile_img: profile_img, last_message: last_message});
+    this.app.getRootNav().push(MessageDetail, { sender: sender, profile_img: profile_img, last_message: last_message});
   }
 
 }
