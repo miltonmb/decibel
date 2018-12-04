@@ -1,0 +1,29 @@
+<ion-content class="main-modal">
+  <div class="modal">
+    <ion-row>
+      <ion-col col-10>
+        <p>Solicitud de servicio</p>
+      </ion-col>
+
+      <!-- If you wish, you can add close icon too. Just delete comment code -->
+      <ion-col col-2><span style="float: right" (click)="dismiss()">
+          <ion-icon name="ios-close-circle-outline"></ion-icon>
+        </span></ion-col>
+
+    </ion-row>
+
+    <ion-item>
+      <ion-label>Fecha:</ion-label>
+      <ion-datetime id="fecha" displayFormat="D/M/YYYY" min="2018-11" max="2022-10-31" [(ngModel)]="solicitud.fecha"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label>Hora:</ion-label>
+      <ion-datetime id="hora" displayFormat="hh:mm A" [(ngModel)]="solicitud.hora"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label>Comentario(s):</ion-label>
+      <ion-textarea [(ngModel)]="solicitud.comentario"></ion-textarea>
+    </ion-item>
+    <button ion-button (click)="enviar()" color="secondary">Enviar</button>
+  </div>
+</ion-content>

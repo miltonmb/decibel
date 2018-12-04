@@ -1,0 +1,23 @@
+<ion-content padding>
+  <ion-grid>
+    <ion-row class="firstRow">
+      <ion-col col-4>
+        <ion-col *ngFor="let s of search_data" class="grid_img" col-4 (click)="pressPhoto(s.id, s.username, s.profile_img, s.post_img)">
+          <img class="img1" [src]="s.post_img" alt="">
+        </ion-col>
+        <ion-col *ngFor="let s of search_data3" class="grid_img" col-4 (click)="pressPhoto(s.id, s.username, s.profile_img, s.post_img)">
+          <img [src]="s.post_img" alt="">
+        </ion-col>
+      </ion-col>
+      <ion-col *ngFor="let s of search_dataBIG" (click)="pressPhoto(s.id, s.username, s.profile_img, s.post_img)">
+        <img class="bigPicture" [src]="s.post_img" alt="">
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col *ngFor="let s of search_data2" class="grid_img" col-4 (click)="pressPhoto(s.id, s.username, s.profile_img, s.post_img)">
+        <img [src]="s.post_img" alt="">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

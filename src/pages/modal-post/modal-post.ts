@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { ModalController, ViewController, NavParams } from 'ionic-angular';
+import { RequestPage } from '../request/request';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 @Component({
   selector: 'page-modalpost',
@@ -44,4 +46,17 @@ export class ModalPost {
     console.log("User id: " + userId);
   }
   
+  sendRequest(user_id: number, username: string){
+    this.presentModal(user_id,username);
+  }
+  presentModal(user_id: number, username: string) {
+    let modal = this.modalCtrl.create(RequestPage,
+      {
+        user_id: user_id,
+        username: username,
+      },
+      { showBackdrop: true, enableBackdropDismiss: true });
+    modal.present();
+  }
+
 }

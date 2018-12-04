@@ -23,26 +23,22 @@
     </div>
 
     <ion-row text-center>
-      <ion-col col-3 no-margin no-padding>
+      <ion-col col-4 no-margin no-padding>
         <button clear ion-button icon-only style="margin-top: 2px" class="like-btn" (click)="likeButton()">
           <ion-icon [name]="like_btn.icon_name" color="{{ like_btn.color }}"></ion-icon>
         </button>
       </ion-col>
-      <ion-col col-3 no-margin no-padding>
+      <ion-col col-4 no-margin no-padding>
         <button no-margin no-padding clear color="black" ion-button icon-only (click)="goUserProfile(1)">
           <ion-icon name="person"></ion-icon>
         </button>
       </ion-col>
-      <ion-col col-3 no-margin no-padding>
-        <button clear color="black" ion-button icon-only style="margin-top: 2px">
+      <ion-col col-4 no-margin no-padding>
+        <button clear color="black" ion-button icon-only style="margin-top: 2px" (click)="sendRequest(modal_data.id, modal_data.username)">
           <ion-icon name="paper-plane"></ion-icon>
         </button>
       </ion-col>
-      <ion-col col-3 no-margin no-padding style="margin-bottom: 5px">
-        <button clear color="black" ion-button icon-only>
-          <ion-icon name="more"></ion-icon>
-        </button>
-      </ion-col>
+      
     </ion-row>
 
   </div>

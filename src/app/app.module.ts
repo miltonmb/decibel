@@ -17,6 +17,11 @@ import { ModalPost } from '../pages/modal-post/modal-post';
 import { MessageDetail } from '../pages/message-detail/message-detail';
 import { NewMessage } from '../pages/new-message/new-message';
 
+import { RequestPage } from '../pages/request/request'
+import { SearchPremiumPage } from '../pages/search-premium/search-premium';
+import { SearchBasicPage } from '../pages/search-basic/search-basic';
+import { ModalAdPage } from '../pages/modal-ad/modal-ad';
+
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -40,7 +45,11 @@ export const CREDENTIALS = {
     //ProfilePage,
     Search,
     ModalPost,
-    InboxPage
+    InboxPage,
+    RequestPage,
+    SearchPremiumPage,
+    SearchBasicPage,
+    ModalAdPage
   ],
   imports: [
     BrowserModule,
@@ -62,6 +71,10 @@ export const CREDENTIALS = {
     InboxPage,
     MessageDetail,
     NewMessage,
+    RequestPage,
+    SearchPremiumPage,
+    SearchBasicPage,
+    ModalAdPage
   ],
   providers: [
     StatusBar,

@@ -14,29 +14,31 @@ export class NewMessage {
   public friends = [
     {
       id: 1,
-      profile_img: 'https://avatars1.githubusercontent.com/u/918975?v=3&s=120',
-      username: 'candelibas'
+      username: 'Gina Benitez',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg',
     },
     {
       id: 2,
-      profile_img: 'https://pbs.twimg.com/profile_images/726955832785571840/8OxhcDxl_400x400.jpg',
-      username: 'maxlynch'
+      username: 'Javier Diaz',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com',
+
     },
     {
       id: 3,
-      profile_img: 'http://ionicframework.com/dist/preview-app/www/assets/img/sarah-avatar.png.jpeg',
-      username: 'ashleyosama'
+      username: 'Cesia Alvarez',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/c71361910151e26588a1e557ff09ca64/5C97E748/t51.2885-15/e35/45567685_196682007905295_3114362441507234935_n.jpg',
+
     },
     {
       id: 4,
-      profile_img: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa_400x400.jpeg',
-      username: 'adam_bradley'
-    },
+      username: 'Miriam Lara',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg',
+   },
     {
       id: 5,
-      profile_img: 'https://avatars1.githubusercontent.com/u/1024025?v=3&s=120',
-      username: 'linus_torvalds'
-    }
+      username: 'Laura',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/311f06df78ef48c80b04e46767f19249/5C9D825B/t51.2885-15/e35/46296938_511845765994137_1960551978169339483_n.jpg',
+   }
   ];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
