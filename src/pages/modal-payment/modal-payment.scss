@@ -1,0 +1,21 @@
+page-modal-payment {
+    .main-modal {
+        background-color: rgba(0, 0, 0, 0.4); /* for shadow */
+      }
+      .head{
+        margin-bottom: 2%;
+        height: 5px;
+      }
+      .modal {
+        position: relative;
+        width: 90%;
+        top: 5%;
+        left: 5%;
+        background: #fff;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+      }
+    
+}

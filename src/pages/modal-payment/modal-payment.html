@@ -1,0 +1,31 @@
+<ion-content class="main-modal">
+  <div class="modal">
+    <ion-row class="head">
+      <ion-header>
+          <ion-col col-5><span style="float: right" (click)="dismiss()"><ion-icon name="ios-close-circle-outline"></ion-icon></span></ion-col>
+     
+      </ion-header>
+    </ion-row>
+    <ion-row text-center>
+      <div>
+        <ion-item>
+          <ion-label>Nombre en la tarjeta</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Número de tarjeta</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Fecha de vencimiento</ion-label>
+          <ion-datetime id="fecha" displayFormat="M/YYYY" min="2020-01" max="2022-10-31"></ion-datetime>
+        </ion-item>
+        <ion-item>
+          <ion-label>CVV</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+      </div>
+    </ion-row>
+  </div>
+
+</ion-content>

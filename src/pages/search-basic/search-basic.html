@@ -10,12 +10,6 @@
         <img [src]="s.post_img" alt="">
       </ion-col>
     </ion-row>
-
-    <ion-row>
-      <ion-col *ngFor="let s of search_data3" class="grid_img" col-4 (click)="pressPhoto(s.id, s.username, s.profile_img, s.post_img)">
-        <img [src]="s.post_img" alt="">
-      </ion-col>
-    </ion-row>
   </ion-grid>
 
 </ion-content>

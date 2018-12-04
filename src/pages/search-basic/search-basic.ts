@@ -20,33 +20,16 @@ export class SearchBasicPage {
   public search_data = [
     {
       id: 1,
-      username: 'Gina Benitez',
+      username: 'Gina Benítez',
       profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg',
       post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg '
     },
     {
-      id: 2,
-      username: 'Javier Diaz',
-      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com',
-      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com'
-    },
-    {
       id: 3,
-      username: 'Cesia Alvarez',
+      username: 'Cesia Álvarez',
       profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/c71361910151e26588a1e557ff09ca64/5C97E748/t51.2885-15/e35/45567685_196682007905295_3114362441507234935_n.jpg',
       post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/c71361910151e26588a1e557ff09ca64/5C97E748/t51.2885-15/e35/45567685_196682007905295_3114362441507234935_n.jpg'
-    }
-  ];
-  public search_dataAD = [
-    {
-      id: 7,
-      username: 'MIN: Museo para la Identidad Nacional de Honduras',
-      profile_img: 'https://scontent.fgua4-1.fna.fbcdn.net/v/t1.0-9/30262122_10156293782644324_3408875727934476584_n.jpg?_nc_cat=108&_nc_ht=scontent.fgua4-1.fna&oh=d278c3fd403fb326868a0488015baecf&oe=5C99B28B',
-      post_img: 'https://scontent.fgua4-1.fna.fbcdn.net/v/t1.0-9/30262122_10156293782644324_3408875727934476584_n.jpg?_nc_cat=108&_nc_ht=scontent.fgua4-1.fna&oh=d278c3fd403fb326868a0488015baecf&oe=5C99B28B'
-    }
-  ]
-  public search_data3 = [
-
+    },
     {
       id: 4,
       username: 'Miriam Lara',
@@ -61,11 +44,26 @@ export class SearchBasicPage {
     },
     {
       id: 6,
-      username: 'Sarahi',
+      username: 'Sarahí',
       profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/38aa6bd1185baa0d28630241523d9385/5C8BA660/t51.2885-15/e35/44907927_172984123659191_2839845616789856029_n.jpg',
       post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/38aa6bd1185baa0d28630241523d9385/5C8BA660/t51.2885-15/e35/44907927_172984123659191_2839845616789856029_n.jpg'
+    },{
+      id: 8,
+      username: 'Tomas',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/0c62daa60ab7439dd04b764b1c8e5eb8/5CA62CE9/t51.2885-15/sh0.08/e35/s640x640/44862944_544968485930433_3984902691107633041_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/0c62daa60ab7439dd04b764b1c8e5eb8/5CA62CE9/t51.2885-15/sh0.08/e35/s640x640/44862944_544968485930433_3984902691107633041_n.jpg'
     }
+    
+
   ];
+  public search_dataAD = [
+    {
+      id: 7,
+      username: 'MIN: Museo para la Identidad Nacional de Honduras',
+      profile_img: 'https://scontent.fgua4-1.fna.fbcdn.net/v/t1.0-9/30262122_10156293782644324_3408875727934476584_n.jpg?_nc_cat=108&_nc_ht=scontent.fgua4-1.fna&oh=d278c3fd403fb326868a0488015baecf&oe=5C99B28B',
+      post_img: 'https://scontent.fgua4-1.fna.fbcdn.net/v/t1.0-9/30262122_10156293782644324_3408875727934476584_n.jpg?_nc_cat=108&_nc_ht=scontent.fgua4-1.fna&oh=d278c3fd403fb326868a0488015baecf&oe=5C99B28B'
+    }
+  ]
 
 
 

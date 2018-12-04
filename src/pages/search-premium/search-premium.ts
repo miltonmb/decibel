@@ -18,7 +18,7 @@ export class SearchPremiumPage {
   public search_data = [
     {
       id: 1,
-      username: 'Gina Benitez',
+      username: 'Gina Benítez',
       profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg',
       post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg '
     }
@@ -26,7 +26,7 @@ export class SearchPremiumPage {
   public search_data3 = [
     {
       id: 3,
-      username: 'Cesia Alvarez',
+      username: 'Cesia Álvarez',
       profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/c71361910151e26588a1e557ff09ca64/5C97E748/t51.2885-15/e35/45567685_196682007905295_3114362441507234935_n.jpg',
       post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/c71361910151e26588a1e557ff09ca64/5C97E748/t51.2885-15/e35/45567685_196682007905295_3114362441507234935_n.jpg'
     }
@@ -34,21 +34,15 @@ export class SearchPremiumPage {
 
   public search_dataBIG = [
     {
-      id: 2,
-      username: 'Javier Diaz',
-      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com',
-      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com'
+      id: 4,
+      username: 'Miriam Lara',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg'
     }
   ];
 
 
   public search_data2 = [
-    {
-      id: 4,
-      username: 'Miriam Lara',
-      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg',
-      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg'
-    },
     {
       id: 5,
       username: 'Laura',
@@ -57,9 +51,14 @@ export class SearchPremiumPage {
     },
     {
       id: 6,
-      username: 'Sarahi',
+      username: 'Sarahí',
       profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/38aa6bd1185baa0d28630241523d9385/5C8BA660/t51.2885-15/e35/44907927_172984123659191_2839845616789856029_n.jpg',
       post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/38aa6bd1185baa0d28630241523d9385/5C8BA660/t51.2885-15/e35/44907927_172984123659191_2839845616789856029_n.jpg'
+    },{
+      id: 7,
+      username: 'Tomas',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/0c62daa60ab7439dd04b764b1c8e5eb8/5CA62CE9/t51.2885-15/sh0.08/e35/s640x640/44862944_544968485930433_3984902691107633041_n.jpg',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/0c62daa60ab7439dd04b764b1c8e5eb8/5CA62CE9/t51.2885-15/sh0.08/e35/s640x640/44862944_544968485930433_3984902691107633041_n.jpg'
     }
   ];
 

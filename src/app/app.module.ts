@@ -21,7 +21,7 @@ import { RequestPage } from '../pages/request/request'
 import { SearchPremiumPage } from '../pages/search-premium/search-premium';
 import { SearchBasicPage } from '../pages/search-basic/search-basic';
 import { ModalAdPage } from '../pages/modal-ad/modal-ad';
-
+import {ModalPaymentPage } from '../pages/modal-payment/modal-payment';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -49,7 +49,8 @@ export const CREDENTIALS = {
     RequestPage,
     SearchPremiumPage,
     SearchBasicPage,
-    ModalAdPage
+    ModalAdPage,
+    ModalPaymentPage
   ],
   imports: [
     BrowserModule,
@@ -74,7 +75,8 @@ export const CREDENTIALS = {
     RequestPage,
     SearchPremiumPage,
     SearchBasicPage,
-    ModalAdPage
+    ModalAdPage,
+    ModalPaymentPage
   ],
   providers: [
     StatusBar,

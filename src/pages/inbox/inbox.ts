@@ -13,17 +13,10 @@ export class InboxPage {
   public messages = [
     {
       id: 1,
-      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/2b9767248069ffd0d2fae6ec4ea410a6/5C9F493B/t51.2885-15/sh0.08/e35/s640x640/44746685_2179518455631394_6191635713267489689_n.jpg',
-      sender: 'Gina Benitez',
-      last_message: 'Que tal?',
-      time: '6h'
-    },
-    {
-      id: 2,
-      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com',
-      sender: 'Javier Diaz',
-      last_message: 'Mañana estaría bien',
-      time: '11h'
+      profile_img: 'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/15977827_10208405384836413_3477583116947607414_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=e63f98e83859c750d749a65a6be6cdac&oe=5C9DD689',
+      sender: 'Milton Martinez',
+      last_message: 'Estoy muy bien, gracias.',
+      time: '3 min'
     },
     {
       id: 3,

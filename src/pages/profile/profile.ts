@@ -28,6 +28,7 @@ export class ProfilePage {
     this.navCtrl.setRoot('EditProfilePage')
   }
   logout() {
+    
 		this.fAuth.auth.signOut();
 		this.navCtrl.setRoot(LoginPage);
 	}
