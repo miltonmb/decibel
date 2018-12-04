@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {AngularFireDatabase} from 'angularfire2/database'
 import {Profile} from '../../models/profile'
 import { AngularFireAuth } from 'angularfire2/auth';
-
+import { LoginPage } from './../login/login';
 /**
  * Generated class for the ProfilePage page.
  *
@@ -27,5 +27,9 @@ export class ProfilePage {
   editProfile(){
     this.navCtrl.setRoot('EditProfilePage')
   }
+  logout() {
+		this.fAuth.auth.signOut();
+		this.navCtrl.setRoot(LoginPage);
+	}
 
 }

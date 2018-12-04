@@ -15,11 +15,6 @@ import { IonicPage, ViewController, NavParams } from 'ionic-angular';
 })
 export class ModalAdPage {
 
-  public like_btn = {
-    color: 'black',
-    icon_name: 'heart-outline'
-  };
-
   public modal_data = {};
 
   constructor(public viewCtrl: ViewController, public navParams: NavParams) {
@@ -35,21 +30,6 @@ export class ModalAdPage {
 
   dismiss() {
     this.viewCtrl.dismiss();
-  }
-
-  likeButton() {
-    if (this.like_btn.icon_name === 'heart-outline') {
-      this.like_btn.icon_name = 'heart';
-      this.like_btn.color = 'danger';
-    }
-    else {
-      this.like_btn.icon_name = 'heart-outline';
-      this.like_btn.color = 'black';
-    }
-  }
-
-  goUserProfile(userId: number) {
-    console.log("User id: " + userId);
   }
 
 }
