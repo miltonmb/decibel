@@ -12,21 +12,12 @@
   <ion-note>
     <p text-center no-padding no-margin>Noviembre 1, 7:29 PM</p>
   </ion-note>
-
-  <!-- Me -->
+  <!-- Sender -->
   <ion-item no-lines no-margin no-padding text-wrap>
-    <ion-avatar item-right>
-      <img src="https://scontent-mia3-2.cdninstagram.com/vp/b6382cc5241940193f11035545600323/5C929F53/t51.2885-15/sh0.08/e35/p750x750/42795115_475141382893680_4223270969365729518_n.jpg">
+    <ion-avatar item-left>
+      <img [src]="profile_img">
     </ion-avatar>
-    <div margin-left class="chatbox chatbox-right">He aceptado tu solicitud</div>
-  </ion-item>
-
-  <!-- Me -->
-  <ion-item no-lines no-margin no-padding text-wrap>
-    <ion-avatar item-right>
-      <img src="https://scontent-mia3-2.cdninstagram.com/vp/b6382cc5241940193f11035545600323/5C929F53/t51.2885-15/sh0.08/e35/p750x750/42795115_475141382893680_4223270969365729518_n.jpg">
-    </ion-avatar>
-    <div margin-left class="chatbox chatbox-right">Hola, ¿Cómo estás?</div>
+    <div class="chatbox">He aceptado tu solicitud</div>
   </ion-item>
 
   <!-- Sender -->
@@ -34,16 +25,25 @@
     <ion-avatar item-left>
       <img [src]="profile_img">
     </ion-avatar>
-    <div class="chatbox">Hola</div>
+    <div class="chatbox">Hola, ¿Cómo estás?</div>
+  </ion-item>
+  
+  <!-- Me -->
+  <ion-item no-lines no-margin no-padding text-wrap>
+    <ion-avatar item-right>
+      <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/15977827_10208405384836413_3477583116947607414_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=e63f98e83859c750d749a65a6be6cdac&oe=5C9DD689" class="profilePicture">
+    </ion-avatar>
+    <div margin-left class="chatbox chatbox-right">Hola </div>
   </ion-item>
 
-  <!-- Sender -->
+  <!-- Me -->
   <ion-item no-lines no-margin no-padding text-wrap>
-    <ion-avatar item-left>
-      <img [src]="profile_img">
+    <ion-avatar item-right>
+      <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/15977827_10208405384836413_3477583116947607414_n.jpg?_nc_cat=101&_nc_ht=scontent-mia3-2.xx&oh=e63f98e83859c750d749a65a6be6cdac&oe=5C9DD689" class="profilePicture">
     </ion-avatar>
-    <div class="chatbox">{{ last_message }}</div>
+    <div margin-left class="chatbox chatbox-right">{{ last_message }}</div>
   </ion-item>
+
 
   <!-- Heart icon -->
   <ion-item no-lines no-margin no-padding text-wrap *ngIf="send_like_icon" item-right>

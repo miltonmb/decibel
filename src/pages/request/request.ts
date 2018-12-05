@@ -47,5 +47,6 @@ export class RequestPage {
     console.log(this.solicitud.fecha)
     console.log(this.solicitud.hora)
     console.log(this.solicitud.comentario)
+    this.viewCtrl.dismiss();
   }
 }

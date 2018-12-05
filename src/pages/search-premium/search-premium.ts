@@ -33,16 +33,23 @@ export class SearchPremiumPage {
   ];
 
   public search_dataBIG = [
+    
+    {
+      id: 2,
+      username: 'Javier Diaz',
+      profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com',
+      post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/40a8d1daa4548eed6bc0aa6371073e08/5C91A92E/t51.2885-15/e35/45837919_135542967455547_4916505121359461146_n.jpg?_nc_ht=scontent-mia3-2.cdninstagram.com'
+    },
+  ];
+
+
+  public search_data2 = [
     {
       id: 4,
       username: 'Miriam Lara',
       profile_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg',
       post_img: 'https://scontent-mia3-2.cdninstagram.com/vp/d2e917ba40379df0f3f1f17876eb2736/5CA68121/t51.2885-15/e35/45397299_2245791542413563_1386697926153278768_n.jpg'
-    }
-  ];
-
-
-  public search_data2 = [
+    },
     {
       id: 5,
       username: 'Laura',
